@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: chartreuse;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+.back-imag {
+  width: 114rem;
+  height: 30rem;
+  background-image: url(../images/desktop/image-hero.jpg);
+}
+
+.links {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.list {
+  width: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.div-with-border {
+  border: solid 1px;
+  border-color: white;
+  width: 18%;
+  padding: 3%;
+  margin-left: 7%;
+  margin-top: 7%;
+}
+
+.div-with-border > p {
+  color: white;
+  font-size: xx-large;
+}
+
+.second-body {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.one-img-one-text {
+  position: relative;
+  display: flex;
+}
+
+.phot-normal {
+  width: 120%;
+  position: relative;
+}
+
+.text-close-imag {
+  background-color: white;
+  padding: 5%;
+  height: 40%;
+  position: absolute;
+  bottom: 1%;
+  left: 45%;
+}
+
+.button-and-titre {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+}
+
+.fore-first-photos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.one {
+  position: relative;
+  text-align: center;
+}
+
+.first-text-img {
+  position: absolute;
+  bottom: 26%;
+  right: 44%;
+}
+
+.tow {
+  position: relative;
+  text-align: center;
+}
+
+.second-text-img {
+  position: absolute;
+  bottom: 26%;
+  right: 44%;
+}
+
+.fore-seconde-photos {
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-lines {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 5%;
+}
+
+footer > div > ul {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 5%;
+}
+
+/*# sourceMappingURL=style.css.map */

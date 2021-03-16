@@ -1,0 +1,12 @@
+
+@media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+    }
+  
+<picture>
+    <source media="(min-width: 900px)" srcset="BigImage.png">
+    <source media="(min-width: 480px)" srcset="MediumImage.png">
+    <img src="OtherImage.png" alt="IfItDoesntMatchAnyMedia">
+</picture>
+}
