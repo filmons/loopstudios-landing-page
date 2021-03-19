@@ -1,7 +1,8 @@
-* {
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+body {
   padding: 0;
   margin: 0;
-  color: chartreuse;
+  width: 100%;
 }
 
 .attribution a {
@@ -12,107 +13,146 @@
   width: 100%;
   height: 30rem;
   background-image: url(../images/desktop/image-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 4%;
 }
 
-.links {
-  width: 70%;
+nav ul {
+  font-family: "Alata", sans-serif;
+  color: #FDFDFD;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding: 5%;
+  margin-left: 46%;
 }
 
-.list {
-  width: 20%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+h1 {
+  color: #FDFDFD;
+  top: 15%;
+  left: 5%;
+}
+
+h2 {
+  font-size: 34px;
+  color: #1b1717;
+  padding: 3%;
+}
+
+h3 {
+  font-size: 34px;
+  color: #1b1717;
+}
+
+button {
+  background-color: #ffffff;
+  width: 9%;
+  border: solid;
+  color: #292525;
+  height: 0%;
+  border-color: black;
 }
 
 .div-with-border {
   border: solid 1px;
-  border-color: white;
+  border-color: #FDFDFD;
   width: 18%;
-  padding: 3%;
   margin-left: 7%;
-  margin-top: 7%;
 }
 
-.div-with-border > p {
-  color: white;
-  font-size: xx-large;
-}
-
-.second-body {
-  padding-left: 5%;
-  padding-right: 5%;
+.div-with-border p {
+  color: #FDFDFD;
+  font-size: 34px;
 }
 
 .one-img-one-text {
   position: relative;
   display: flex;
+  width: 80%;
+  margin: 0% auto;
 }
 
 .phot-normal {
-  width: 179%;
+  width: 100%;
   position: relative;
+  bottom: 1%;
 }
 
 .text-close-imag {
-  background-color: white;
+  background-color: #FDFDFD;
   padding: 5%;
   height: 40%;
   position: absolute;
-  bottom: 1%;
-  left: 45%;
+  bottom: 0%;
+  left: 38%;
 }
 
 .button-and-titre {
-  background-color: white;
+  background-color: #FDFDFD;
   display: flex;
   justify-content: space-between;
+  margin-top: 2%;
   padding: 1%;
+  width: 80%;
+  margin: 0% auto;
 }
 
 .fore-first-photos {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  width: 74%;
+  margin: 0% auto;
 }
 
 .one {
   position: relative;
   text-align: center;
+  width: 50%;
 }
 
 .first-text-img {
   position: absolute;
   bottom: 26%;
   right: 44%;
+  color: #FDFDFD;
+  font-size: 20px;
 }
 
 .tow {
   position: relative;
   text-align: center;
+  width: 50%;
 }
 
 .second-text-img {
   position: absolute;
   bottom: 26%;
   right: 44%;
+  color: #FDFDFD;
+  font-size: 20px;
 }
 
 .fore-seconde-photos {
-  margin-top: 3%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  width: 74%;
+  margin: 0% auto;
+}
+
+.reso-sosiale {
+  color: #FDFDFD;
+  margin-top: 3%;
 }
 
 footer {
-  background-color: black;
+  background-color: #1b1717;
   display: flex;
   justify-content: space-around;
 }
 
 .footer-lines {
+  color: #FDFDFD;
   width: 50%;
   display: flex;
   flex-wrap: wrap;
@@ -120,12 +160,185 @@ footer {
   padding: 5%;
 }
 
-footer > div > ul {
+footer div ul {
   width: 50%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 5%;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    background-color: #0000FF;
+  }
+
+  body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  .attribution a {
+    color: #3e52a3;
+  }
+
+  .back-imag {
+    width: 100%;
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  nav ul {
+    font-family: "Alata", sans-serif;
+    color: #FDFDFD;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5%;
+    margin-left: 46%;
+  }
+
+  h1 {
+    color: #FDFDFD;
+    top: 15%;
+    left: 5%;
+  }
+
+  h2 {
+    font-size: 34px;
+    color: #1b1717;
+    padding: 3%;
+  }
+
+  h3 {
+    font-size: 34px;
+    color: #1b1717;
+  }
+
+  button {
+    background-color: #ffffff;
+    width: 9%;
+    border: solid;
+    color: #292525;
+    height: 0%;
+    border-color: black;
+  }
+
+  .div-with-border {
+    border: solid 1px;
+    border-color: #FDFDFD;
+    width: 46%;
+    margin-left: 21%;
+    position: relative;
+    top: 10%;
+  }
+
+  .div-with-border p {
+    color: #FDFDFD;
+    font-size: 20px;
+  }
+
+  .one-img-one-text {
+    position: relative;
+    display: flex;
+    width: 80%;
+    margin: 0% auto;
+  }
+
+  .phot-normal {
+    width: 100%;
+    position: relative;
+    bottom: 1%;
+  }
+
+  .text-close-imag {
+    background-color: #FDFDFD;
+    padding: 5%;
+    height: 40%;
+    position: absolute;
+    bottom: 0%;
+    left: 38%;
+  }
+
+  .button-and-titre {
+    background-color: #FDFDFD;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    padding: 1%;
+    width: 80%;
+    margin: 0% auto;
+  }
+
+  .fore-first-photos {
+    display: flex;
+    justify-content: center;
+    width: 74%;
+    margin: 0% auto;
+  }
+
+  .one {
+    position: relative;
+    text-align: center;
+    width: 50%;
+  }
+
+  .first-text-img {
+    position: absolute;
+    bottom: 26%;
+    right: 44%;
+    color: #FDFDFD;
+    font-size: 20px;
+  }
+
+  .tow {
+    position: relative;
+    text-align: center;
+    width: 50%;
+  }
+
+  .second-text-img {
+    position: absolute;
+    bottom: 26%;
+    right: 44%;
+    color: #FDFDFD;
+    font-size: 20px;
+  }
+
+  .fore-seconde-photos {
+    display: flex;
+    justify-content: center;
+    width: 74%;
+    margin: 0% auto;
+  }
+
+  .reso-sosiale {
+    color: #FDFDFD;
+    margin-top: 3%;
+  }
+
+  footer {
+    background-color: #1b1717;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .footer-lines {
+    color: #FDFDFD;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5%;
+  }
+
+  footer div ul {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
