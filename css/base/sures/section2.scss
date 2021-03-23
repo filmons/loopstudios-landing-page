@@ -1,0 +1,39 @@
+.fore-first-photos{
+    display: flex;
+    justify-content: center;
+    width: 74%;
+    margin: 0% auto;
+
+}
+.one{
+    position: relative;
+    text-align: center;
+    width: 50%;
+}
+.first-text-img{
+    position: absolute;
+    bottom: 26%;
+    right: 44%;
+    color:$colo-black;
+    @include secondsize;
+
+}
+.tow{
+    position: relative;
+    text-align: center;
+    width: 50%;
+}
+.second-text-img{
+    position: absolute;
+    bottom: 26%;
+    right: 44%;
+    color:$colo-black;
+    @include secondsize;
+}
+.fore-seconde-photos{
+    display: flex;
+    justify-content: center;
+    width: 74%;
+    margin: 0% auto;
+}
+

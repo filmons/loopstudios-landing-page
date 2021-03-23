@@ -1,0 +1,28 @@
+.reso-sosiale{
+    color:$colo-black;
+    margin-top: 3%;
+}
+footer{
+    background-color:$colo-noir;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-lines{
+    color:$colo-black;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5%;
+}
+footer{
+    div{
+        ul {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+}
+}

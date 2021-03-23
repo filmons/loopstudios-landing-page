@@ -1,46 +1,188 @@
 
+@import "./colors.scss";
+@import "./mixide.scss";
+@import "./nav.scss";
+@import "./section1.scss";
 
-// @media screen and (max-width: 600px) {
-//     body {
-//       background-color:greenyellow;
-//     }
+@media screen and (max-width: 375px) {
+    body {
+      background-color:$color-green;
+    }
+.attribution a { 
+    color: $color-blue;
+ }
 
-
-//     // .back-imag {
-//     //     width: 100%;
-//     //     height: 50rem;
-       
-//     // }
-//     // h1{
-        
-//     //     margin: auto;
-//     // }
-//     // .div-with-border {
-//     //     border: solid 1px;
-//     //     border-color: #FDFDFD;
-//     //     width: 18%;
-//     //     padding: 3%;
-//     //     margin-left: 7%;
-//     // }
-//     // .one-img-one-text{
-//     //     display:flex;
-//     // }
-//     // .fore-first-photos{
-//     //     flex-direction: row-reverse;
-//     //     width: 100%;
+ .back-imag{
+    width: 200%;
+    height: 30rem;
     
-//     // }
-//     // .phot-normal{
-//     //     width: 100%;
-        
-//     // }
-//     // .text-close-imag{
-        
-//     //     padding: 5%;
-//     //     height: 40%;
-//     //     position: absolute;
-//     //     bottom: 1%;
-//     //     left: 45%;
-//     // }
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ 
+ #menuToggle
+ {
+   display: block;
+   position: relative;
+   top: 50px;
+   left: 50px;
+   
+   z-index: 1;
+   
+   -webkit-user-select: none;
+   user-select: none;
+ }
+ 
+ #menuToggle a
+ {
+   text-decoration: none;
+   color: #232323;
+   
+   transition: color 0.3s ease;
+ }
+ 
+ #menuToggle a:hover
+ {
+   color: tomato;
+ }
+ 
+
+    h2{
+        @include fontsiz;
+        color:$colo-noir;
+        padding: 3%;
+    }
+    h3{
+        @include fontsiz;
+        color:$colo-noir;
+
+    }
+    button{
+    background-color: $colo-black;
+    width: 9%;
+    border: solid;
+    color: $colo-noir;
+    height: 0%;
+    border-color:$colo-noir;
+    }
+
+
+
+.div-with-border{
+    border: solid 1px;
+    border-color: $colo-black;
+    width: 18%;
+    margin-left: 21%;
+    position: relative;
+    padding: 2%;
     
-// }
+}
+.div-with-border{
+    p {  
+    color:$colo-black;
+    @include second;
+    
+}
+}
+
+.one-img-one-text{
+    position: relative;
+    display: flex;
+    width: 80%;
+    margin: 0% auto;
+}
+.phot-normal{
+    width: 243%;
+    margin-top: 3%;
+}
+.text-close-imag{
+    background-color: $colo-black;
+    text-overflow: ellipsis;
+}
+.text-close-imag {
+    background-color: $colo-black;
+    padding: 28%;
+    width: 100%;
+    position: absolute;
+    
+
+    
+}
+.button-and-titre{
+    background-color:$colo-black;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    padding: 10%;
+    width: 185%;
+    margin: 0% auto;
+    z-index: 4;
+}
+.fore-first-photos{
+    display: flex;
+    justify-content: center;
+    width: 74%;
+    margin: 0% auto;
+
+}
+.one{
+    position: relative;
+    text-align: center;
+    width: 50%;
+}
+.first-text-img{
+    position: absolute;
+    bottom: 26%;
+    right: 44%;
+    color:$colo-black;
+    @include secondsize;
+
+}
+.tow{
+    position: relative;
+    text-align: center;
+    width: 50%;
+}
+.second-text-img{
+    position: absolute;
+    bottom: 26%;
+    right: 44%;
+    color:$colo-black;
+    @include secondsize;
+}
+.fore-seconde-photos{
+    display: flex;
+    justify-content: center;
+    width: 74%;
+    margin: 0% auto;
+}
+.reso-sosiale{
+    color:$colo-black;
+    margin-top: 3%;
+}
+footer{
+    background-color: $colo-noir;
+    width: 208%;
+
+}
+.footer-lines{
+    color:$colo-black;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5%;
+}
+footer{
+    div{
+        ul {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+}
+}
+}
